@@ -1,13 +1,106 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+  margin : 0px;
+  padding : 0px
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body
+{
+  display : flex;
+   justify-content : center;
+  align-items : center;
+  background-color : #1b1b1b;
+  height: 100vh;
+
+}
+#container{
+  min-width: 280px;
+  min-height : 60vh;
+  background-color : white;
+  display : flex;
+  flex-direction : column;
+  align-items : center;
+  border-radius : 15px;
+}
+span{
+  margin-left: 5px;
+  margin-top: 3px;
+  font-size  : 30px;
+  background-color : black
+}
+h1{
+  padding-top: 3px;
+  color:#4C516D;
+}
+#cn{
+  display : flex;
+}
+#containermain{
+    margin-top : 20px;
+    border : 1px solid black;
+    height : 30px;
+    width : 220px;
+    border-radius : 2px;
+    display : flex;
+    margin-bottom : 30px;
+    
+}
+#containerInput
+{
+  display:flex;
+  width : 100%;
+  
+}
+#containerInput input{
+  border : none;
+  width : 100%;
+  outline : none;
+  background-color : #faebd7;
+}
+#containerInput button{
+   border : none;
+    width : 10%;
+  background-color : #faebd7;
+}
+h3{
+  margin-top: 5px;
+  border : 1px solid black;
+  height : 25px;
+  min-width : 220px;
+  background-color : #6a5acd;
+  color  : #faebd7;
+  display : flex;
+  justify-content : space-between;
+  align-items : center
+}
+#search{
+    margin-top: 20px;
+    height : 30px;
+    width : 220px;
+    background-color : #faebd7;
+}
+#btn{
+  border : 1px solid black;
+  margin : 20px;
+  height : 30px;
+  background-color : #6a5acd;
+  width : 150px;
+  border-radius : 10px;
+  color  : #faebd7;
+}
+#btn:hover{
+  background-color : #faebd7;
+  color  : #6a5acd;
+}
+h3:hover{
+  background-color : #faebd7;
+  color  :#6a5acd;
+}
+#btn1:hover{
+  color:red
+}
+#btn2:hover{
+  color:#008b8b
+}
+#btn3:hover{
+  color:#007f66
 }
